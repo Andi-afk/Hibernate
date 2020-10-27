@@ -4,7 +4,7 @@ Hibernate workshop 2019 repository. The workshop is provided by Andi Hermann and
 
 This is a project meant to give students a better grasp of the technology known as Hibernate. Hibernate is a...
 
-# For this project to be completed you need the following prerequisites:
+# Porject Prerequisites:
 1. Netbeans
 2. Hibernate plugin inside Netbeans
 3. Docker Desktop
