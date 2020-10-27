@@ -1,6 +1,6 @@
 # Hibernate
 
-This is a project meant to give students a better grasp of the technology known as hibernate.
+This is a project meant to give students a better grasp of the technology known as Hibernate. Hibernate is a...
 
 For this project to be completed you need the following prerequisites:
 1. Netbeans
