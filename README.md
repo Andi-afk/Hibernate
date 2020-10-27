@@ -17,3 +17,6 @@ This is a project meant to give students a better grasp of the technology known 
 
 
 # Assignments:
+
+# Hibernate documentation
+https://hibernate.org/orm/documentation/5.4/
