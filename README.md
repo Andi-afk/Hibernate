@@ -11,9 +11,9 @@ This is a project meant to give students a better grasp of the technology known 
 4. PgAdmin III: 9.5.23 (Optional)
 
 
-REQUIRED setup steps:
+# Starting up the project:
 1.
 2.
 
 
-Assignments:
+# Assignments:
