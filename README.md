@@ -8,7 +8,8 @@ This is a project meant to give students a better grasp of the technology known 
 1. Netbeans
 2. Hibernate plugin inside Netbeans
 3. Docker Desktop
-4. PgAdmin III: 9.5.23 (Optional)
+4. PgAdmin III
+5. PostgreSQL: 9.5.23 (Optional)
 
 
 # Starting up the Project:
