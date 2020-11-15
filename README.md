@@ -13,9 +13,9 @@ This is a project meant to give students a better grasp of the technology known 
 
 # Installation
 Open Netbeans 
-There are 2 paths you can take here depending on the version of IDE you are currently using.
+There are 2 paths you can take here depending on the version of IDE you are currently using
 
-The 1st scenario would be that Netbeans will have the Hibernate framework preinstalled. 
+The 1st scenario would be that Netbeans will have the Hibernate framework preinstalled
 To check if you have Hibernate on your IDE, press new FILE and look for the Hibernate option.
 If you found the Hibernate Configuration wizard you are all set up.
 
