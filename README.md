@@ -6,10 +6,9 @@ This is a project meant to give students a better grasp of the technology known 
 
 # Project Prerequisites:
 1. Netbeans (recommended version 8.2 with jdk1.8.0_261)
-2. Maven on Netbeans ( give extra info on how to do the 1st and 2nd point, maybe add some links)
-3. Hibernate plugin inside Netbeans (provide steps)
-4. Docker Desktop 
-5. PgAdmin III (Optional) 
+3. Hibernate instaled on Netbeans 
+4. Docker Desktop installed  
+5. PgAdmin III installed (Optional) 
 
 # Installation
 Open Netbeans 
