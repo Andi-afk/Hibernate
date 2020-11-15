@@ -22,7 +22,7 @@ If you found the Hibernate Configuration wizard you are all set up.
 In the case of Hibernate not being available by default, it is required to mannually install it.
 To do so follow the steps below:
 
-Step1: Navigate to libraries under Tools 
+1. Navigate to libraries under Tools 
 Step2: Navigate to Plugins menu under Tools.
 Step3: Click on available plugins
 Step4: Search for hibernate in the search bar. 
