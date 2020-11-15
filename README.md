@@ -11,7 +11,8 @@ This is a project meant to give students a better grasp of the technology known 
 5. PgAdmin III installed (Optional) 
 
 # Installation
-Open Netbeans 
+Open Netbeans
+
 There are 2 paths you can take here depending on the version of IDE you are currently using
 
 The 1st scenario would be that Netbeans will have the Hibernate framework preinstalled
