@@ -42,7 +42,9 @@ In case you can not find the pluging under avaliable pluging do the following:
 This will hopefully add the Hibernate plugin under Avaliable Plugins
 
 # Docker configuration
-
+These steps asume that Docker Desctop has already been installed
+1. Pull the postgres image from Docker hub. In command prompt type:
+<addr>docker pull postgres
 
 
 # Starting up the Project:
