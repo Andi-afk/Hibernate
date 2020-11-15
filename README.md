@@ -29,6 +29,17 @@ To do so follow the steps below:
 4. Search for hibernate in the search bar. 
 5. If found click on the box next to it and press install.
 
+In case you can not find the pluging under avaliable pluging do the following:
+
+1. Go to the Setting tab in the Plugins menue
+2. Click on the Add button
+3. Set a name of your choise 
+4. Set URL to http://updates.netbeans.org/netbeans/updates/8.2/uc/final/distribution/catalog.xml.gz
+5. In the Settings window, set Check Interval to "Every Startup" option
+6. Restart NetBeans
+
+This will hopefully add the Hibernate plugin under Avaliable Plugins
+
 
 # Starting up the Project:
 For the successful participation in the Hibernate workshop, postgress as well as a netbeans project that will connect to postgress database are required.
