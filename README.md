@@ -11,6 +11,24 @@ This is a project meant to give students a better grasp of the technology known 
 4. Docker Desktop 
 5. PgAdmin III (Optional) 
 
+# Installation
+Open Netbeans 
+There are 2 paths you can take here depending on the version of IDE you are currently using.
+
+The 1st scenario would be that Netbeans will have the Hibernate framework preinstalled. 
+To check if you have Hibernate on your IDE, press new FILE and look for the Hibernate option.
+If you found the Hibernate Configuration wizard you are all set up.
+
+In the case of Hibernate not being available by default, it is required to mannually install it.
+To do so follow the steps below:
+
+Step1: Navigate to libraries under Tools 
+Step2: Navigate to Plugins menu under Tools.
+Step3: Click on available plugins
+Step4: Search for hibernate in the search bar. 
+Step5: If found click on the box next to it and press install.
+
+
 # Starting up the Project:
 For the successful participation in the Hibernate workshop, postgress as well as a netbeans project that will connect to postgress database are required.
 Follow the steps bellow to set up your environment.
