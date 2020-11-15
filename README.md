@@ -23,10 +23,10 @@ In the case of Hibernate not being available by default, it is required to mannu
 To do so follow the steps below:
 
 1. Navigate to libraries under Tools 
-Step2: Navigate to Plugins menu under Tools.
-Step3: Click on available plugins
-Step4: Search for hibernate in the search bar. 
-Step5: If found click on the box next to it and press install.
+2. Navigate to Plugins menu under Tools.
+3. Click on available plugins
+4. Search for hibernate in the search bar. 
+5. If found click on the box next to it and press install.
 
 
 # Starting up the Project:
