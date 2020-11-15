@@ -10,7 +10,7 @@ This is a project meant to give students a better grasp of the technology known 
 4. Docker Desktop installed  
 5. PgAdmin III installed (Optional) 
 
-# Installation
+# Hibernate Installation
 Open Netbeans
 
 There are 2 paths you can take here depending on the version of IDE you are currently using.
@@ -40,6 +40,9 @@ In case you can not find the pluging under avaliable pluging do the following:
 6. Restart NetBeans
 
 This will hopefully add the Hibernate plugin under Avaliable Plugins
+
+# Docker configuration
+
 
 
 # Starting up the Project:
