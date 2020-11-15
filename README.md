@@ -44,8 +44,9 @@ This will hopefully add the Hibernate plugin under Avaliable Plugins
 # Docker configuration
 These steps asume that Docker Desctop has already been installed
 1. Pull the postgres image from Docker hub. In command prompt type:
-<addr>docker pull postgres
-
+```
+docker pull postgres
+```
 
 # Starting up the Project:
 For the successful participation in the Hibernate workshop, postgress as well as a netbeans project that will connect to postgress database are required.
