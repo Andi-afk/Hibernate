@@ -52,7 +52,10 @@ These steps asume that Docker Desctop has already been installed
 ```
 >docker container run -d --name=pgsql -p 8080:5432 -e POSTGRES_PASSWORD=secret -e PGDATA=/pgdata postgres:9.1
 ```
-
+4. Check if container is created. Use command:
+```
+>docker ps
+```
 
 # Starting up the Project:
 For the successful participation in the Hibernate workshop, postgress as well as a netbeans project that will connect to postgress database are required.
