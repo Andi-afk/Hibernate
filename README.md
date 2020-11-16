@@ -6,7 +6,7 @@ This is a project meant to give students a better grasp of the technology known 
 
 # Project Prerequisites:
 1. Netbeans (recommended version 8.2 with jdk1.8.0_261)
-3. Hibernate instaled on Netbeans 
+3. Hibernate installed on Netbeans 
 4. Docker Desktop installed  
 5. PgAdmin III installed 
 
