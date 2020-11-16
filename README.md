@@ -45,12 +45,12 @@ This will hopefully add the Hibernate plugin under Avaliable Plugins
 These steps asume that Docker Desctop has already been installed
 1. Pull the postgres image from Docker hub. In command prompt type:
 ```
-> docker pull postgres
+> docker pull postgres:9.1
 ```
 2. Make shure no containers are currently running. This is done through the Docker Desctop App
 3. Create Docker container. Use command:
 ```
->docker container run -d --name=pgsql -p 5432:5432 -e POSTGRES_PASSWORD=secret -e PGDATA=/pgdata postgres
+>docker container run -d --name=pgsql -p 8080:5432 -e POSTGRES_PASSWORD=secret -e PGDATA=/pgdata postgres:9.1
 ```
 
 
