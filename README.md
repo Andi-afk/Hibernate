@@ -76,17 +76,17 @@ Class Guide: You have 3 classes, main class called HibernateApp and 2 other: Ani
 
 Step2: You need the following to code snippet to be able to insert data into your database
 ```
-Configuration conf = new Configuration().configure().addAnnotatedClass(Student.class);
+Configuration conf = new Configuration().configure().addAnnotatedClass(Student.class); //Used to map to annotated Student class and used to instatiate SessionFactory
         
-        SessionFactory sf = conf.buildSessionFactory();        
+SessionFactory sf = conf.buildSessionFactory(); //Session factory used to instantiate the Session Object, since it's an inteface (Cannot be instantiated via new)       
         
-        Session session = sf.openSession();
+Session session = sf.openSession(); //Session object used to implement the save method
         
-        Transaction tc = session.beginTransaction();
+Transaction tc = session.beginTransaction(); //Transaction object required for ACID principles
         
-        session.save(s1);
+session.save(s1); // to insert a Student class in the database
         
-        tc.commit();
+tc.commit(); // we commit transaction changes within the application
 ```
 
 # Advanced Assignments
