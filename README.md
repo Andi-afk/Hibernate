@@ -154,5 +154,12 @@ After this, the Certificate class' attributes have to be mapped as well. Look at
 The second part has three subsections. The require that Employee objects have to be inserted, modified and deleted from the database.
 For this the session methods save(), update(), delete() should be used. 
 
+After the completion of the exercises, repeat the command:
+```
+\dt
+```
+Now the three created tables sould be seen. 
+
+
 # Hibernate documentation
 https://hibernate.org/orm/documentation/5.4/
