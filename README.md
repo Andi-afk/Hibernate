@@ -74,7 +74,7 @@ Step1: Get project directory hibernateExercisesBasic running on NETBEANS IDE. Th
 
 Class Guide: You have 3 classes, main class called HibernateApp and 2 other: Animal and Student. The persistence of the Student object will be provided as an example by the workshop presentors. The Animal class is expected to be finalized by the participants of the workshop.
 
-Step2: You need the following to code snippet to be able to insert data into your database
+Step2: You need the following to code snippet to be able to insert data into your database. You have the explanation of each line, present as a comment which is loacated next to the code line.
 ```
 Configuration conf = new Configuration().configure().addAnnotatedClass(Student.class); //Used to map to annotated Student class and used to instatiate SessionFactory
         
