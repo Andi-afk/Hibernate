@@ -88,7 +88,44 @@ session.save(s1); // to insert a Student class in the database
         
 tc.commit(); // we commit transaction changes within the application
 ```
+Step3: Make sure that you have Hibernate plugin installed on your IDE (view Hibernate Installation section). If you do add, new Hibernate Configuration Wizard file to your project (Found in the example in "Other Sources").  Additionally make sure you have the following dependencies set in your pom.xml file: 
+```
+ <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>4.1.6.Final</version>
+</dependency>
+        
+<dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.38</version>
+</dependency>
+```
+This dependencies will allow you to use Hibernate Objects and methods.
 
+Step4: Setup your Hibernate Configuration Wizard. For this exercise we use the following example:
+```
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+    <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+    <property name="hibernate.connection.url">jdbc:postgresql://localhost:8080/postgres</property>
+    <property name="hibernate.connection.username">postgres</property>
+    <property name="hibernate.connection.password">secret</property> 
+    <property name="hbm2ddl.auto">update</property>  // 2 option here update to maintain all rows or create for deleting all previous data to create a fresh database
+  </session-factory>
+</hibernate-configuration>
+```
+Step5: Use PgAdmin 3 to connect to the docker container mentioned in Docker Configuration section of the Git repository.
+To do so go under File -> "Add Server"
+and complete the form as follows: 
+Name = postgres
+Port = 8080
+Password = secret
+Finnaly press ok and you'll see the database which was created in the Docker Container
+
+Step6: Run HibernateApp class and view changes in the database through PgAdmin SQL query
 # Advanced Assignments
 1. ???
 2.
