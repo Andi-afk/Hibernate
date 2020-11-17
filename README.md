@@ -68,6 +68,13 @@ Follow the steps bellow to set up your environment.
 1. How to insert data into a database using Hibernate
 2. How to fetch data from a database using Hibernate
 3. How to update data from a database using Hibernate
+4. How to write in HQL, SQL, and HCQL.
+
+Step1: Get project directory hibernateExercisesBasic running on NETBEANS IDE. There are multiple ways to do so, one of them would be to download repository zip, unzip file, get project directory out and use the "Open Project" within the IDE.
+
+Class Guide: You have 3 classes, main class called HibernateApp and 2 other: Animal and Student. The persistence of the Student object will be provided as an example by the workshop presentors. The Animal class is expected to be finalized by the participants of the workshop.
+
+Step2: 
 
 # Advanced Assignments
 1. ???
