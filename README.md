@@ -127,9 +127,32 @@ Finnaly press ok and you'll see the database which was created in the Docker Con
 
 Step6: Run HibernateApp class and view changes in the database through PgAdmin SQL query
 # Advanced Assignments
-1. ???
-2.
-3.
+This exercise requires that you have a Docker image for postgreSQL pulled and a container installed
+
+Firstly, in a terminal, run the command:
+```
+docker container exec -it pgsql  psql -U postgres
+```
+Here pgsql is the name of the container and psql is the command. This opens a command line SQL interface that comes with the postgres image.
+
+Afterwareds, run the command:
+```
+\dt
+```
+This checks for existing relations in the database. Since we havent created anything yet, it should tell you that there are none. Leave the terminal open for now.
+
+Once this is done, we are ready to start coding!
+
+The Advanced Hibernate exercise is comprised of two parts. One deals with mapping an XML file, the other with data insertion and retrieval.
+
+First we'll start with the mapping. This is done inside of the Employee.hbo.xml file in the Other Sources folder. Since we're implementing a Many to Many relaton ship, we need to use a Java set to store the classes with which another class is related to. Imagine that we have an Employee class and a CertificateType class. An employee can have multyple certificates and many employees can have the same certificate. For this reason, the Employee class has a set of certificates as one of the attributes.
+
+This attribute has to be mapped inside the XML using a <set> element. Keep in mind that for a Many to Many relationship a third table is needed in the database.
+
+After this, the Certificate class' attributes have to be mapped as well. Look at the Java class to see what needs to be included.
+
+The second part has three subsections. The require that Employee objects have to be inserted, modified and deleted from the database.
+For this the session methods save(), update(), delete() should be used. 
 
 # Hibernate documentation
 https://hibernate.org/orm/documentation/5.4/
